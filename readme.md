@@ -94,5 +94,9 @@ sudo firewall-cmd --permanent --remove-service=cockpit
 
 sudo firewall-cmd --reload
 sudo firewall-cmd --list-all 
+```
 
 
+```bash
+yum install net-tools
+```
