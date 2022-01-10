@@ -1,5 +1,3 @@
-# dev.proxysquid
-
 ### 🛠 Dev Proxy Squid | Instalar e configurar. 
 
 
