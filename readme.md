@@ -57,11 +57,7 @@ sudo yum update -y && sudo yum upgarde -y
 sudo yum install vim
 ```
 
-* Desabilitar o **`SELinux`** `sudo vim /etc/selinux/config` 
-
-```bash
-
-```
+* Desabilitar o **`SELinux`** `cat /etc/selinux/config`
 
 * Defina permanentemente o modo SELinux  
 
