@@ -25,8 +25,8 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 
 #### O que é Squid ?
 
-* Proxy cache que tem suporte aos protocolos **HTTP, HTTPS, FTP** e Outros.
+* Proxy cache que tem suporte aos protocolos **`HTTP, HTTPS, FTP`** e Outros.
 * Licenciado pela GNU GPL.
-* Algumas possibilidades: **Controle de Acesso, Logs, Gerenciamento de tráfego**.
+* Algumas possibilidades: **`Controle de Acesso, Logs, Gerenciamento de tráfego`**.
 * Melhora sua performance continuamente.
 * Compatibilidade com várias plataformas e uma variedade de software para análise de logs e geração de relatórios. 
