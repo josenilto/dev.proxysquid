@@ -100,3 +100,21 @@ sudo firewall-cmd --list-all
 ```bash
 yum install net-tools
 ```
+
+Se o route for utilizado sem nenhuma opção, exibe a tabela de rotas.
+
+```bash
+route -n
+```
+
+A mesma informação pode ser vista com o comando ip:
+
+```bash
+ ip route show
+```
+
+O comando **netstat -r** também lista a tabela de rotas:
+
+```bash
+netstat -r
+```
