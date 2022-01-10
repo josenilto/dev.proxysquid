@@ -30,3 +30,16 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 * Algumas possibilidades: **`Controle de Acesso, Logs, Gerenciamento de tráfego`**.
 * Melhora sua performance continuamente.
 * Compatibilidade com várias plataformas e uma variedade de software para análise de logs e geração de relatórios. 
+
+
+
+#### Acl de tipo TIME (Por Horário)
+
+| SIGLA SQUID | DIA DA SEMANA |
+|S|DOMINGO|
+|M|SEGUNDA|
+|T|TERÇA|
+|W|QUARTA|
+|H|QUINTA|
+|F|SEXTA|
+|A|SÁBADO|
