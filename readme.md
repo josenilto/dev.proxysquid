@@ -122,3 +122,9 @@ O comando **netstat -r** também lista a tabela de rotas:
 ```bash
 netstat -r
 ```
+
+## Instalando o squid
+
+```bash
+sudo yum install squid
+```
