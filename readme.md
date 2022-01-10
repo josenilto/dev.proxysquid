@@ -56,3 +56,15 @@ sudo yum update -y && sudo yum upgarde -y
 ```bash
 sudo yum install vim
 ```
+
+* Desabilitar o **`SELinux`** `sudo vim /etc/selinux/config` 
+
+```bash
+
+```
+
+* Após isso, vamos verificar o status do firewall com o comando
+
+```bash
+sestatus
+```
