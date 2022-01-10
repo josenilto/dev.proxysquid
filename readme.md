@@ -1,4 +1,4 @@
-### 🛠 Dev Proxy Squid | Instalar e configurar. 
+## 🛠 Dev Proxy Squid | Instalar e configurar. 
 
 
 O Squid é um proxy da web HTTP de cache e encaminhamento.  
@@ -7,7 +7,7 @@ Ele tem uma ampla variedade de utilizações, incluindo acelerar um servidor web
 
 
 
-
+## 🛠 Apresentação
 
 * OpenSource 
 * Josenilto L da Silva
