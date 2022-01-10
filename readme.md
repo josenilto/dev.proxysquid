@@ -98,7 +98,11 @@ sudo firewall-cmd --list-all
 
 
 ```bash
-yum install net-tools
+sudo yum -y install net-tools
+```
+
+```bash
+sudo yum -y install psmisc
 ```
 
 Se o route for utilizado sem nenhuma opção, exibe a tabela de rotas.
