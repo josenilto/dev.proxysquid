@@ -83,5 +83,16 @@ systemctl reboot
 sestatus
 ```
 
+Abra a porta do firewall para Squid.</br>
+Se você tiver um serviço firewalld em execução, permita a porta **`3128`** na rede:
+
+```bash
+sudo firewall-cmd --permanent --add-service=squid
+
+sudo firewall-cmd --permanent --remove-service=dhcpv6-client
+sudo firewall-cmd --permanent --remove-service=cockpit
+
+sudo firewall-cmd --reload
+sudo firewall-cmd --list-all 
 
 
