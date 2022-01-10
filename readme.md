@@ -61,25 +61,21 @@ sudo yum install vim
 
 * Defina permanentemente o modo SELinux  
 
-Se precisarmos definir o modo SELinux permanentemente como permissivo , também teremos que configurá-lo no arquivo de configuração do SELinux. Assim, na próxima inicialização o SELinux iniciará no modo permissivo .
+Se precisarmos definir o modo SELinux permanentemente como permissivo , também teremos que configurá-lo no arquivo de configuração do SELinux.  
+Assim, na próxima inicialização o SELinux iniciará no modo permissivo .
 
 ```bash
 sed -i s/^SELINUX=.*$/SELINUX=permissive/ /etc/selinux/config
-```
-
-```bash
 setenforce 0
 ```
 
 * Desative permanentemente o SELinux  
 
-Não é possível desabilitar o SELinux temporariamente enquanto um servidor CentOS estiver em execução. Devemos desabilitar o SELinux através de seu arquivo de configuração, então na próxima reinicialização do sistema o SELinux não será mais habilitado.
+Não é possível desabilitar o SELinux temporariamente enquanto um servidor CentOS estiver em execução.  
+Devemos desabilitar o SELinux através de seu arquivo de configuração, então na próxima reinicialização do sistema o SELinux não será mais habilitado.
 
 ```bash
-sed -i s/^SELINUX=.*$/SELINUX=disabled/ /etc/selinux/config
-```
-
-```bash
+sed -i s/^SELINUX=.*$/SELINUX=disabled/ /etc/selinux/config  
 systemctl reboot
 ```
 
