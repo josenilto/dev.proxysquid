@@ -44,3 +44,15 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 |H|QUINTA|
 |F|SEXTA|
 |A|SÁBADO|
+
+* Atualização do servidor
+
+```bash
+sudo yum update -y && sudo yum upgarde -y
+```
+
+* Instalação do **`VIM`**  
+
+```bash
+sudo yum install vim
+```
