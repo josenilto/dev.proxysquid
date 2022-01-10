@@ -22,3 +22,11 @@ Pode ter como função a filtragem de conteúdo, onde através de uma lista de c
 
 Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena em seu cache os objetos solicitados por seus clientes. Caso algum cliente faça uma requisição de um objeto e o mesmo já existe no cache do proxy, a resposta será enviada imediatamente.
 
+
+#### O que é Squid ?
+
+* Proxy cache que tem suporte aos protocolos **HTTP, HTTPS, FTP** e Outros.
+* Licenciado pela GNU GPL.
+* Algumas possibilidades: **Controle de Acesso, Logs, Gerenciamento de tráfego**.
+* Melhora sua performance continuamente.
+* Compatibilidade com várias plataformas e uma variedade de software para análise de logs e geração de relatórios. 
