@@ -54,7 +54,7 @@ sudo yum update -y && sudo yum upgarde -y
 * Instalação do **`VIM`**  
 
 ```bash
-sudo yum install vim
+sudo yum -y install vim
 ```
 
 * Desabilitar o **`SELinux`** `cat /etc/selinux/config`
