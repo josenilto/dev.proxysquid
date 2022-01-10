@@ -36,6 +36,7 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 #### Acl de tipo TIME (Por Horário)
 
 | SIGLA SQUID | DIA DA SEMANA |
+|---|---|
 |S|DOMINGO|
 |M|SEGUNDA|
 |T|TERÇA|
