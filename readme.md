@@ -132,3 +132,9 @@ sudo yum install squid
 ```bash
 tail -f /var/log/squid/access.log
 ```
+
+### Realizar backup do arquivo .conf
+
+```bash
+cp -p -Rfa /etc/squid/squid.conf{,.20220110}
+```
