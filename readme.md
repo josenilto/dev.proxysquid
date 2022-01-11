@@ -154,3 +154,29 @@ tail -f /var/log/squid/access.log
 ```bash
 cp -p -Rfa /etc/squid/squid.conf{,.20220110}
 ```
+
+### Iniciando o SQUID  
+Agora vamos criar o diretório de cache do squid.
+
+```bash
+squid -z
+```
+
+Vamos deixar o squid configurado para iniciar junto ao boot do sistema linux.
+
+```bash
+systemctl enable squid
+```
+
+Em seguida iniciamos o serviço do Squid.
+
+```bash
+systemctl start squid
+```
+
+Verificando o status no sistema.
+
+```bash
+systemctl status squid
+```
+
