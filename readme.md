@@ -129,8 +129,7 @@ Para realizar a instalação do squid é muito simples. Buscamos o pacote direto
 ```bash
 sudo yum -y install squid
 ```
-**02. Etapa:** Realizar backup do arquivo .conf
-O primeiro passo a fazer é um backup do arquivo **squid.conf**.
+**02. Etapa:** Realizar um backup do arquivo **squid.conf**.
 
 ```bash
 cp -p -Rfa /etc/squid/squid.conf{,backup.`date +%Y%m%d`.`whoami`}
