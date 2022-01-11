@@ -152,7 +152,7 @@ tail -f /var/log/squid/access.log
 ### Realizar backup do arquivo .conf
 
 ```bash
-cp -p -Rfa /etc/squid/squid.conf{,.bk.`date +%Y%m%d`}
+cp -p -Rfa /etc/squid/squid.conf{,backup.`date +%Y%m%d`.`whoami`}
 ```
 
 ### Iniciando o SQUID  
