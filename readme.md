@@ -121,7 +121,7 @@ sudo yum -y install squid
 **02. Etapa:** Realizar um backup do arquivo **squid.conf**.
 
 ```bash
-cp -p -Rfa /etc/squid/squid.conf{,backup.`date +%Y%m%d`.`whoami`}
+cp -p -Rfa /etc/squid/squid.conf{,.backup.`date +%Y%m%d`.`whoami`}
 ```
 
 ## Configurando o SQUID
