@@ -128,3 +128,7 @@ netstat -r
 ```bash
 sudo yum install squid
 ```
+
+```bash
+tail -f /var/log/squid/access.log
+```
