@@ -123,23 +123,21 @@ O comando **netstat -r** também lista a tabela de rotas:
 netstat -r
 ```
 
-## Instalando o SQUID  
+**01. Etapa:** Instalando o SQUID.  
 Para realizar a instalação do squid é muito simples. Buscamos o pacote direto dos repositórios.
 
 ```bash
 sudo yum -y install squid
 ```
-
-## Configurando o SQUID
-Agora vamos efetuar as configurações do SQUID no ambiente Linux. 
-
-**01. Etapa** O primeiro passo a fazer é um backup do arquivo **squid.conf**.
-
-### Realizar backup do arquivo .conf
+**02. Etapa:** Realizar backup do arquivo .conf
+O primeiro passo a fazer é um backup do arquivo **squid.conf**.
 
 ```bash
 cp -p -Rfa /etc/squid/squid.conf{,backup.`date +%Y%m%d`.`whoami`}
 ```
+
+## Configurando o SQUID
+Agora vamos efetuar as configurações do SQUID no ambiente Linux. 
 
 Agora vamos acessar o diretório de configuração do SQUID.
 
