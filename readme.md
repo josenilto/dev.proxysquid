@@ -141,6 +141,11 @@ cp -p -Rfa /etc/squid/squid.conf{,.bkp}
 Agora vamos acessar o diretório de configuração do SQUID.
 
 ```bash
+cd /etc/squid/
+```
+
+
+```bash
 tail -f /var/log/squid/access.log
 ```
 
