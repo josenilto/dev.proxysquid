@@ -132,7 +132,7 @@ sudo yum -y install squid
 
 ## Configurando o SQUID
 Agora vamos efetuar as configurações do SQUID no ambiente Linux.  
-O primeiro passo a fazer é um backup do arquivo squid.conf.
+O primeiro passo a fazer é um backup do arquivo **squid.conf**.
 
 ```bash
 cp -p -Rfa /etc/squid/squid.conf{,.bkp}
