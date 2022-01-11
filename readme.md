@@ -10,7 +10,7 @@ Ele tem uma ampla variedade de utilizações, incluindo acelerar um servidor web
 
 * OpenSource 
 * Josenilto L da Silva
-* Gradudo em **Ciência da Computação** pela **Universidade Veiga de Almeida - UVA**, Rio de Janeiro
+* Graduado em **Ciência da Computação** pela **Universidade Veiga de Almeida - UVA**, Rio de Janeiro
 * Atuando na área de TI desde 2002
 * Foco em soluções Linux desde 2008
 
@@ -45,19 +45,19 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 |F|SEXTA|
 |A|SÁBADO|
 
-* Atualização do servidor
+## Como atualizar o servidor
 
 ```bash
 sudo yum update -y && sudo yum upgarde -y
 ```
 
-* Instalação do **`VIM`**  
+Instalação do **`VIM`**  
 
 ```bash
 sudo yum -y install vim
 ```
 
-* Desabilitar o **`SELinux`** `cat /etc/selinux/config`
+### Desabilitar o **`SELinux`** `cat /etc/selinux/config`
 
 * Defina permanentemente o modo SELinux  
 
