@@ -180,3 +180,11 @@ Verificando o status no sistema.
 systemctl status squid
 ```
 
+### Testando o funcionamento do SQUID  
+Para testar o servidor Squid insira o IP e porta nas configurações de proxy do navegador.
+
+Acompanhe os logs de acessos.
+
+```bash
+tail -f /var/log/squid/access.log
+```
