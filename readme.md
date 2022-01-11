@@ -45,7 +45,7 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 |F|SEXTA|
 |A|SÁBADO|
 
-## Como atualizar o servidor
+### 🛠 Como atualizar o servidor
 
 ```bash
 sudo yum update -y && sudo yum upgarde -y
@@ -57,7 +57,7 @@ Instalação do **`VIM`**
 sudo yum -y install vim
 ```
 
-### Desabilitar o **`SELinux`** `cat /etc/selinux/config`
+### 🛠 Desabilitar o **`SELinux`** `cat /etc/selinux/config`
 
 * Defina permanentemente o modo SELinux  
 
@@ -111,7 +111,7 @@ O comando **netstat -r** também lista a tabela de rotas:
 ```bash
 netstat -r
 ```
-## 🛠 Instalando o SQUID  
+### 🛠 Instalando o SQUID  
 **01. Etapa:** Para realizar a instalação do squid é muito simples. Buscamos o pacote direto dos repositórios.
 
 ```bash
@@ -123,7 +123,7 @@ sudo yum -y install squid
 cp -p -Rfa /etc/squid/squid.conf{,.backup.`date +%Y%m%d`.`whoami`}
 ```
 
-## 🛠 Configurando o SQUID
+### 🛠 Configurando o SQUID
 Agora vamos efetuar as configurações do SQUID no ambiente Linux. 
 
 Agora vamos acessar o diretório de configuração do SQUID.
