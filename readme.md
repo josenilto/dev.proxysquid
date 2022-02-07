@@ -1,4 +1,4 @@
-## 🛠 DEV PROXY SQUID | Instalar e configuração . 
+## 🛠 DEV PROXY SQUID | Instalação e configuração . 
 
 
 O Squid é um proxy da web HTTP de cache e encaminhamento.  
