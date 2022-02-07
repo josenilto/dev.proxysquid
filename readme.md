@@ -102,6 +102,8 @@ O comando **netstat -r** também lista a tabela de rotas:
 ```bash
 netstat -r
 ```
+---
+
 ### 🛠 Instalando o SQUID  
 **01. Etapa:** Para realizar a instalação do squid é muito simples. Buscamos o pacote direto dos repositórios.
 
