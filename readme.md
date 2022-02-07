@@ -36,6 +36,8 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 |F|SEXTA|
 |A|SÁBADO|
 
+---
+
 🛠 **Passo 01;** Como atualizar o servidor
 
 ```bash
