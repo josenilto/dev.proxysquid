@@ -45,19 +45,19 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 |F|SEXTA|
 |A|SÁBADO|
 
-🛠 **Como atualizar o servidor**
+🛠 **Passo 01;** Como atualizar o servidor
 
 ```bash
 sudo yum -y update && sudo yum -y upgarde
 ```
 
-Instalação do **`VIM`**  
+🛠 **Passo 02;** Instalação do **`VIM`**  
 
 ```bash
 sudo yum -y install vim
 ```
 
-### 🛠 Desabilitar o **`SELinux`** `cat /etc/selinux/config`
+🛠 **Passo 03;** Desabilitar o **`SELinux`** `cat /etc/selinux/config`
 
 * Defina permanentemente o modo SELinux  
 
@@ -83,7 +83,7 @@ systemctl reboot
 sestatus
 ```
 
-### 🛠 Abra a porta do firewall para Squid.  
+🛠 **Passo 03;** Abra a porta do firewall para Squid.  
 Se você tiver um serviço firewalld em execução, permita a porta **`3128`** na rede:
 
 ```bash
