@@ -45,10 +45,10 @@ Também pode ter a função de proxy cache, nesse tipo o servidor proxy armazena
 |F|SEXTA|
 |A|SÁBADO|
 
-### 🛠 Como atualizar o servidor
+🛠 **Como atualizar o servidor**
 
 ```bash
-sudo yum update -y && sudo yum upgarde -y
+sudo yum -y update && sudo yum -y upgarde
 ```
 
 Instalação do **`VIM`**  
