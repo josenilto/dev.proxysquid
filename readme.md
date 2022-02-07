@@ -83,7 +83,7 @@ systemctl reboot
 sestatus
 ```
 
-🛠 **Passo 03;** Abra a porta do firewall para Squid.  
+🛠 **Passo 04;** Abra a porta do firewall para Squid.  
 Se você tiver um serviço firewalld em execução, permita a porta **`3128`** na rede:
 
 ```bash
