@@ -165,3 +165,17 @@ Acompanhe os logs de acessos.
 ```bash
 tail -f /var/log/squid/access.log
 ```
+
+```bash
+
+[squid]
+name=Squid repo for CentOS Linux - 7 
+
+#IL mirror
+
+baseurl=http://www1.ngtech.co.il/repo/centos/$releasever/beta/$basearch/
+failovermethod=priority
+enabled=1
+gpgcheck=0
+
+```
